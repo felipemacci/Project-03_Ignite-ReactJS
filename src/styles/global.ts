@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -9,8 +9,8 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     -webkit-font-smoothing: antialised;
-    color: ${props => props.theme["gray-100"]};
-    background: ${props => props.theme["gray-800"]};
+    color: ${(props) => props.theme['gray-100']};
+    background: ${(props) => props.theme['gray-800']};
   }
 
   body, input, textarea, button {
@@ -19,6 +19,6 @@ export const GlobalStyle = createGlobalStyle`
 
   :focus {
     outline: 0;
-    box-shadow: 0 0 0 2px ${props => props.theme["green-500"]};
+    box-shadow: 0 0 0 2px ${(props) => props.theme['green-500']};
   }
 `
