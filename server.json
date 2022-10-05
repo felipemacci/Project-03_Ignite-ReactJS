@@ -1,28 +1,3 @@
 {
-  "transactions": [
-    {
-      "id": 1,
-      "description": "Site development",
-      "type": "income",
-      "category": "Work",
-      "price": 14000,
-      "createdAt": "2022-10-02T15:07:48.727Z"
-    },
-    {
-      "id": 2,
-      "description": "Apple",
-      "type": "expense",
-      "category": "Food",
-      "price": 50,
-      "createdAt": "2022-10-02T13:07:48.727Z"
-    },
-    {
-      "description": "Cake for clara",
-      "price": 150,
-      "category": "Food",
-      "type": "expense",
-      "createdAt": "2022-10-02T20:51:40.540Z",
-      "id": 3
-    }
-  ]
+  "transactions": []
 }
